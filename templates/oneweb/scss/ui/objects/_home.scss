@@ -1,0 +1,69 @@
+/* Home
+ *********************************/
+#brain p {
+	text-indent: 0;
+}
+
+#brain p a {
+	font-size      : 1.25em;
+	margin         : 0;
+	font-weight    : bold;
+	color          : #113e80;
+	display        : block;
+	text-transform : lowercase;
+}
+
+#brain p a:hover {
+	color           : #ff6600;
+	text-decoration : none;
+}
+
+#brain {
+	width      : 700px;
+	height     : 270px;
+	margin     : 75px auto 0 auto;
+	background : url(../images/home.png) 50% 0 no-repeat;
+	position   : relative;
+}
+
+#about {
+	position   : absolute;
+	left       : 400px;
+	top        : 84px;
+	background : url(../images/home.png) -113px -314px no-repeat;
+	padding    : 2px 0 2px 160px;
+}
+
+#services {
+	position      : absolute;
+	left          : 20px;
+	top           : 17px;
+	text-align    : right;
+	background    : url(../images/home.png) 143px -375px no-repeat;
+	padding-right : 120px;
+}
+
+#process {
+	position   : absolute;
+	left       : 362px;
+	top        : -12px;
+	background : url(../images/home.png) -110px -490px no-repeat;
+	padding    : 0 0 54px 163px;
+}
+
+#contact {
+	position      : absolute;
+	left          : 15px;
+	top           : 122px;
+	text-align    : right;
+	background    : url(../images/home.png) 115px -280px no-repeat;
+	padding-right : 120px;
+}
+
+#notes {
+	position   : absolute;
+	left       : 348px;
+	top        : 205px;
+	background : url(../images/home.png) -114px -433px no-repeat;
+	padding    : 0 0 0 160px;
+}

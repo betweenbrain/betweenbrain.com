@@ -638,12 +638,12 @@ body {
 
 /* Colour selected text. */
 ::-moz-selection {
-  background-color: #cd6e57;
+  background-color: #0060a1;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background-color: #cd6e57;
+  background-color: #0060a1;
   color: #fff;
   text-shadow: none; }
 
@@ -667,7 +667,7 @@ samp {
 
 pre {
   background-color: #fcfcfc;
-  border: 1px solid #eeeeee;
+  border: 1px solid #f26922;
   border-radius: 3px;
   padding: 1em; }
 
@@ -881,10 +881,10 @@ a {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  color: #cd6e57;
+  color: #0060a1;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #ba5137; }
+    color: #00426e; }
 
 /* Back to top link. */
 a.to-top {
@@ -1851,7 +1851,7 @@ abbr {
    ========================================================================== */
 /* Back to top link. */
 a.to-top {
-  background: #cd6e57;
+  background: #0060a1;
   color: #fff; }
 
 /* ==========================================================================
@@ -1860,7 +1860,7 @@ a.to-top {
 /* BLOCK QUOTES */
 /* Borders are nice, sometimes. */
 blockquote {
-  border-left: 4px solid #d9907e;
+  border-left: 4px solid #007ed4;
   font-style: italic; }
 
 cite {
@@ -2009,7 +2009,69 @@ of adding icon classes in our markup. It's more awesome. */
     HEADER
    ========================================================================== */
 .header-row {
-  text-align: center; }
+  text-align: center;
+  border-top: 0.4045em solid #f26922; }
+
+/* Home
+ *********************************/
+#brain p {
+  text-indent: 0; }
+
+#brain p a {
+  font-size: 1.25em;
+  margin: 0;
+  font-weight: bold;
+  color: #113e80;
+  display: block;
+  text-transform: lowercase; }
+
+#brain p a:hover {
+  color: #ff6600;
+  text-decoration: none; }
+
+#brain {
+  width: 700px;
+  height: 270px;
+  margin: 75px auto 0 auto;
+  background: url(../images/home.png) 50% 0 no-repeat;
+  position: relative; }
+
+#about {
+  position: absolute;
+  left: 400px;
+  top: 84px;
+  background: url(../images/home.png) -113px -314px no-repeat;
+  padding: 2px 0 2px 160px; }
+
+#services {
+  position: absolute;
+  left: 20px;
+  top: 17px;
+  text-align: right;
+  background: url(../images/home.png) 143px -375px no-repeat;
+  padding-right: 120px; }
+
+#process {
+  position: absolute;
+  left: 362px;
+  top: -12px;
+  background: url(../images/home.png) -110px -490px no-repeat;
+  padding: 0 0 54px 163px; }
+
+#contact {
+  position: absolute;
+  left: 15px;
+  top: 122px;
+  text-align: right;
+  background: url(../images/home.png) 115px -280px no-repeat;
+  padding-right: 120px; }
+
+#notes {
+  position: absolute;
+  left: 348px;
+  top: 205px;
+  background: url(../images/home.png) -114px -433px no-repeat;
+  padding: 0 0 0 160px; }
 
 /* ==========================================================================
     LOGO
@@ -2069,7 +2131,7 @@ of adding icon classes in our markup. It's more awesome. */
     FOOTER
    ========================================================================== */
 .footer-row {
-  background: #cd6e57;
+  background: #0060a1;
   /* Offset the content container as we're padding the grid items */
   /* Make each module a grid item */ }
   @media only screen and (min-width: 45em) {
