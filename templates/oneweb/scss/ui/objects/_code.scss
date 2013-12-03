@@ -1,0 +1,19 @@
+pre code{
+	display      : block;
+	padding      : 0 0 1em 0;
+	background   : url("data:image/gif;base64,R0lGODlhAQAoAKECANXx6+/5/////////yH5BAEAAAIALAAAAAABACgAAAIHjI+ZwO3/CgA7");
+	padding-left : 22px;
+}
+
+pre[class]:before {
+	content        : attr(class);
+	display        : block;
+	background     : #333;
+	color          : #d5f1eb;
+	font-size      : .8em;
+	font-family    : Helvetica, Arial, FreeSans, sans-serif;
+	padding        : .5em 0;
+	margin-bottom  : 1em;
+	text-indent    : .5em;
+	text-transform : uppercase;
+}

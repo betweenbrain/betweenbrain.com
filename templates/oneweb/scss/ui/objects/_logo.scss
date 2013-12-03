@@ -1,0 +1,17 @@
+
+/* ==========================================================================
+    LOGO
+   ========================================================================== */
+
+.logo {
+
+	display: block;
+
+	@extend .grid-item;
+	@extend .kilo;
+
+	@include media-query(lap) {
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+}
