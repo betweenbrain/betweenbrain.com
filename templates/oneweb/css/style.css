@@ -2037,6 +2037,10 @@ of adding icon classes in our markup. It's more awesome. */
         display: block;
         padding: 0.4045em; }
 
+.pagenav {
+  margin-bottom: 0;
+  padding-bottom: 1.618em; }
+
 /* ==========================================================================
     BANNER
    ========================================================================== */
