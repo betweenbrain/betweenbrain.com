@@ -1,17 +1,18 @@
-
 /* ==========================================================================
     LOGO
    ========================================================================== */
 
-.logo {
+.item-123 {
 
-	display: block;
+	display        : block;
+	text-transform : lowercase;
+	font-weight    : 100;
 
 	@extend .grid-item;
 	@extend .kilo;
 
 	@include media-query(lap) {
-		margin-bottom: 0;
-		vertical-align: middle;
+		margin-bottom  : 0;
+		vertical-align : middle;
 	}
 }
