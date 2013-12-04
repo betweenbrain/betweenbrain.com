@@ -703,7 +703,7 @@ form ul {
 
 /* Remove default fieldset styles. */
 fieldset {
-  border: 1px solid #eeeeee;
+  border: 1px solid #f26922;
   border-radius: 3px;
   padding: 1.618em; }
 
@@ -884,7 +884,7 @@ a {
   color: #0060a1;
   text-decoration: none; }
   a:hover, a:focus {
-    color: #00426e; }
+    color: #f26922; }
 
 /* Back to top link. */
 a.to-top {
@@ -980,7 +980,7 @@ td {
   margin-top: 0;
   margin-bottom: 0.35956em; }
 
-.kilo, .logo {
+.kilo, .item-123 {
   font-size: 3em;
   line-height: 1.07867;
   margin-top: 0;
@@ -1325,7 +1325,7 @@ abbr {
 /* ==========================================================================
     GRID
    ========================================================================== */
-.grid-item, .logo, [role="navigation"], .footer-row .module, .social, .copyright, .above-row .module, .below-row .module {
+.grid-item, .item-123, [role="navigation"], .footer-row .module, .social, .copyright, .above-row .module, .below-row .module {
   display: inline-block;
   margin-right: -0.25em;
   width: 100%;
@@ -2014,72 +2014,73 @@ of adding icon classes in our markup. It's more awesome. */
 
 /* Home
  *********************************/
-#brain p {
-  text-indent: 0; }
-
-#brain p a {
-  font-size: 1.25em;
+.brain a {
+  font-size: 1em;
+  line-height: .75em;
   margin: 0;
   font-weight: bold;
-  color: #113e80;
+  color: #0060a1;
   display: block;
   text-transform: lowercase; }
 
-#brain p a:hover {
-  color: #ff6600;
+.brain a:hover {
+  color: #f26922;
   text-decoration: none; }
 
-#brain {
+.brain {
   width: 700px;
   height: 270px;
   margin: 75px auto 0 auto;
   background: url(../images/home.png) 50% 0 no-repeat;
-  position: relative; }
+  position: relative;
+  list-style: none; }
 
-#about {
+.brain .neuron {
   position: absolute;
+  background-image: url(../images/home.png);
+  background-repeat: no-repeat; }
+
+.brain .about {
   left: 400px;
   top: 84px;
-  background: url(../images/home.png) -113px -314px no-repeat;
-  padding: 2px 0 2px 160px; }
+  background-position: -123px -314px;
+  padding: 6px 0 2px 147px; }
 
-#services {
-  position: absolute;
+.brain .services {
   left: 20px;
   top: 17px;
   text-align: right;
-  background: url(../images/home.png) 143px -375px no-repeat;
+  background-position: 160px -380px;
   padding-right: 120px; }
 
-#process {
-  position: absolute;
+.brain .process {
   left: 362px;
   top: -12px;
-  background: url(../images/home.png) -110px -490px no-repeat;
-  padding: 0 0 54px 163px; }
+  background-position: -110px -492px;
+  padding: 2px 0 0 162px; }
 
-#contact {
-  position: absolute;
+.brain .contact {
   left: 15px;
   top: 122px;
   text-align: right;
-  background: url(../images/home.png) 115px -280px no-repeat;
-  padding-right: 120px; }
+  background-position: 129px -283px;
+  padding-right: 107px; }
 
-#notes {
-  position: absolute;
+.brain .notes {
   left: 348px;
   top: 205px;
-  background: url(../images/home.png) -114px -433px no-repeat;
-  padding: 0 0 0 160px; }
+  background-position: -114px -439px;
+  padding-left: 160px; }
 
 /* ==========================================================================
     LOGO
    ========================================================================== */
-.logo {
-  display: block; }
+.item-123 {
+  display: block;
+  text-transform: lowercase;
+  font-weight: 100; }
   @media only screen and (min-width: 45em) {
-    .logo {
+    .item-123 {
       margin-bottom: 0;
       vertical-align: middle; } }
 
@@ -2089,7 +2090,6 @@ of adding icon classes in our markup. It's more awesome. */
 /* MAIN NAVIGATION */
 [role="navigation"] {
   vertical-align: middle;
-  font-variant: small-caps;
   font-weight: 400; }
   [role="navigation"] ul {
     margin-bottom: 0; }
