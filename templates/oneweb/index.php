@@ -30,9 +30,6 @@ include_once JPATH_THEMES . '/' . $this->template . '/logic.php';
         <div class="header-row">
             <div class="wrapper">
                 <header role="banner" class="content">
-                    <div class="logo">
-                        <a href="<?php echo $this->baseurl ?>/" title="<?php echo htmlspecialchars($app->getCfg('sitename'));?>"><?php echo htmlspecialchars($app->getCfg('sitename'));?></a>
-                    </div>
                     <?php if($this->countModules('menu')) : ?>
                         <nav role="navigation">
                             <jdoc:include type="modules" name="menu" style="gangnam" />
