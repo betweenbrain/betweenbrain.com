@@ -1,69 +1,68 @@
 /* Home
  *********************************/
-#brain p {
-	text-indent: 0;
-}
-
-#brain p a {
-	font-size      : 1.25em;
+.brain a {
+	font-size      : 1em;
+	line-height    : .75em;
 	margin         : 0;
 	font-weight    : bold;
-	color          : #113e80;
+	color          : $brand-color;
 	display        : block;
 	text-transform : lowercase;
 }
 
-#brain p a:hover {
-	color           : #ff6600;
+.brain a:hover {
+	color           : $secondary-color;
 	text-decoration : none;
 }
 
-#brain {
+.brain {
 	width      : 700px;
 	height     : 270px;
 	margin     : 75px auto 0 auto;
 	background : url(../images/home.png) 50% 0 no-repeat;
 	position   : relative;
+	list-style : none;
 }
 
-#about {
-	position   : absolute;
-	left       : 400px;
-	top        : 84px;
-	background : url(../images/home.png) -113px -314px no-repeat;
-	padding    : 2px 0 2px 160px;
+.brain .neuron {
+	position          : absolute;
+	background-image  : url(../images/home.png);
+	background-repeat : no-repeat;
 }
 
-#services {
-	position      : absolute;
-	left          : 20px;
-	top           : 17px;
-	text-align    : right;
-	background    : url(../images/home.png) 143px -375px no-repeat;
-	padding-right : 120px;
+.brain .about {
+	left                : 400px;
+	top                 : 84px;
+	background-position : -123px -314px;
+	padding             : 6px 0 2px 147px;
 }
 
-#process {
-	position   : absolute;
-	left       : 362px;
-	top        : -12px;
-	background : url(../images/home.png) -110px -490px no-repeat;
-	padding    : 0 0 54px 163px;
+.brain .services {
+	left                : 20px;
+	top                 : 17px;
+	text-align          : right;
+	background-position : 160px -380px;
+	padding-right       : 120px;
 }
 
-#contact {
-	position      : absolute;
-	left          : 15px;
-	top           : 122px;
-	text-align    : right;
-	background    : url(../images/home.png) 115px -280px no-repeat;
-	padding-right : 120px;
+.brain .process {
+	left                : 362px;
+	top                 : -12px;
+	background-position : -110px -492px;
+	padding             : 2px 0 0 162px;
 }
 
-#notes {
-	position   : absolute;
-	left       : 348px;
-	top        : 205px;
-	background : url(../images/home.png) -114px -433px no-repeat;
-	padding    : 0 0 0 160px;
+.brain .contact {
+	left                : 15px;
+	top                 : 122px;
+	text-align          : right;
+	background-position : 129px -283px;
+	padding-right       : 107px;
+}
+
+.brain .notes {
+	left                : 348px;
+	top                 : 205px;
+	background-position : -114px -439px;
+	padding-left        : 160px;
 }
