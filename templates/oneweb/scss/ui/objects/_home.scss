@@ -1,68 +1,70 @@
-/* Home
- *********************************/
-.brain a {
-	font-size      : 1em;
-	line-height    : .75em;
-	margin         : 0;
-	font-weight    : bold;
-	color          : $brand-color;
-	display        : block;
-	text-transform : lowercase;
-}
+@include media-query(lap) {
 
-.brain a:hover {
-	color           : $secondary-color;
-	text-decoration : none;
-}
+	.brain a {
+		font-size      : 1em;
+		line-height    : .75em;
+		margin         : 0;
+		font-weight    : bold;
+		color          : $brand-color;
+		display        : block;
+		text-transform : lowercase;
+	}
 
-.brain {
-	width      : 700px;
-	height     : 270px;
-	margin     : 75px auto 0 auto;
-	background : url(../images/home.png) 50% 0 no-repeat;
-	position   : relative;
-	list-style : none;
-}
+	.brain a:hover {
+		color           : $secondary-color;
+		text-decoration : none;
+	}
 
-.brain .neuron {
-	position          : absolute;
-	background-image  : url(../images/home.png);
-	background-repeat : no-repeat;
-}
+	.brain {
+		width      : 679px;
+		height     : 270px;
+		margin     : 75px auto 0 auto;
+		background : url(../images/home.png) 50% 0 no-repeat;
+		position   : relative;
+		list-style : none;
+	}
 
-.brain .about {
-	left                : 400px;
-	top                 : 84px;
-	background-position : -123px -314px;
-	padding             : 6px 0 2px 147px;
-}
+	.brain .neuron {
+		position          : absolute;
+		background-image  : url(../images/home.png);
+		background-repeat : no-repeat;
+	}
 
-.brain .services {
-	left                : 20px;
-	top                 : 17px;
-	text-align          : right;
-	background-position : 160px -380px;
-	padding-right       : 120px;
-}
+	.brain .about {
+		left                : 400px;
+		top                 : 84px;
+		background-position : -123px -314px;
+		padding             : 6px 0 2px 147px;
+	}
 
-.brain .process {
-	left                : 362px;
-	top                 : -12px;
-	background-position : -110px -492px;
-	padding             : 2px 0 0 162px;
-}
+	.brain .services {
+		left                : 20px;
+		top                 : 17px;
+		text-align          : right;
+		background-position : 160px -380px;
+		padding-right       : 120px;
+	}
 
-.brain .contact {
-	left                : 15px;
-	top                 : 122px;
-	text-align          : right;
-	background-position : 129px -283px;
-	padding-right       : 107px;
-}
+	.brain .process {
+		left                : 362px;
+		top                 : -12px;
+		background-position : -110px -492px;
+		padding             : 2px 0 0 162px;
+	}
 
-.brain .notes {
-	left                : 348px;
-	top                 : 205px;
-	background-position : -114px -439px;
-	padding-left        : 160px;
+	.brain .contact {
+		left                : 15px;
+		top                 : 122px;
+		text-align          : right;
+		background-position : 129px -283px;
+		padding-right       : 107px;
+	}
+
+	.brain .notes {
+		left                : 348px;
+		top                 : 205px;
+		background-position : -114px -439px;
+		padding-left        : 160px;
+	}
+
 }
