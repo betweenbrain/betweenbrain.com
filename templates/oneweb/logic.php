@@ -88,7 +88,7 @@ if ($jQuery) {
   $doc->addScript($this->baseurl.'/templates/'.$this->template.'/js/jquery-1.8.2.min.js');
 }
 // Global styles
-$doc->addStyleSheet($template.'/css/style.css');
+$doc->addStyleSheet($template.'/css/style.min.css');
 // Google fonts styles
 if ($googleWebFonts != "") {
   $doc->addStyleSheet(''.$googleWebFonts.'');

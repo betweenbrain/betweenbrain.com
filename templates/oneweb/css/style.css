@@ -2012,66 +2012,64 @@ of adding icon classes in our markup. It's more awesome. */
   text-align: center;
   border-top: 0.4045em solid #f26922; }
 
-/* Home
- *********************************/
-.brain a {
-  font-size: 1em;
-  line-height: .75em;
-  margin: 0;
-  font-weight: bold;
-  color: #0060a1;
-  display: block;
-  text-transform: lowercase; }
+@media only screen and (min-width: 45em) {
+  .brain a {
+    font-size: 1em;
+    line-height: .75em;
+    margin: 0;
+    font-weight: bold;
+    color: #0060a1;
+    display: block;
+    text-transform: lowercase; }
 
-.brain a:hover {
-  color: #f26922;
-  text-decoration: none; }
+  .brain a:hover {
+    color: #f26922;
+    text-decoration: none; }
 
-.brain {
-  width: 700px;
-  height: 270px;
-  margin: 75px auto 0 auto;
-  background: url(../images/home.png) 50% 0 no-repeat;
-  position: relative;
-  list-style: none; }
+  .brain {
+    width: px;
+    height: 270px;
+    margin: 75px auto 0 auto;
+    background: url(../images/home.png) 50% 0 no-repeat;
+    position: relative;
+    list-style: none; }
 
-.brain .neuron {
-  position: absolute;
-  background-image: url(../images/home.png);
-  background-repeat: no-repeat; }
+  .brain .neuron {
+    position: absolute;
+    background-image: url(../images/home.png);
+    background-repeat: no-repeat; }
 
-.brain .about {
-  left: 400px;
-  top: 84px;
-  background-position: -123px -314px;
-  padding: 6px 0 2px 147px; }
+  .brain .about {
+    left: 400px;
+    top: 84px;
+    background-position: -123px -314px;
+    padding: 6px 0 2px 147px; }
 
-.brain .services {
-  left: 20px;
-  top: 17px;
-  text-align: right;
-  background-position: 160px -380px;
-  padding-right: 120px; }
+  .brain .services {
+    left: 20px;
+    top: 17px;
+    text-align: right;
+    background-position: 160px -380px;
+    padding-right: 120px; }
 
-.brain .process {
-  left: 362px;
-  top: -12px;
-  background-position: -110px -492px;
-  padding: 2px 0 0 162px; }
+  .brain .process {
+    left: 362px;
+    top: -12px;
+    background-position: -110px -492px;
+    padding: 2px 0 0 162px; }
 
-.brain .contact {
-  left: 15px;
-  top: 122px;
-  text-align: right;
-  background-position: 129px -283px;
-  padding-right: 107px; }
+  .brain .contact {
+    left: 15px;
+    top: 122px;
+    text-align: right;
+    background-position: 129px -283px;
+    padding-right: 107px; }
 
-.brain .notes {
-  left: 348px;
-  top: 205px;
-  background-position: -114px -439px;
-  padding-left: 160px; }
-
+  .brain .notes {
+    left: 348px;
+    top: 205px;
+    background-position: -114px -439px;
+    padding-left: 160px; } }
 /* ==========================================================================
     LOGO
    ========================================================================== */
