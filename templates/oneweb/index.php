@@ -118,7 +118,7 @@ include_once JPATH_THEMES . '/' . $this->template . '/logic.php';
                     <?php if ($social > 0) : ?>
                         <ul class="social">
                             <?php if ($twitterLink != "") : ?>
-                                <li><a class="twitter" href="<?php echo ($twitterLink); ?>" title="Follow me on Twitter" target="_blank"><?php echo ($twitter); ?></a></li>
+                                <li><a class="twitter" href="<?php echo ($twitterLink); ?>" title="Follow betweenbrain on Twitter" target="_blank"><?php echo ($twitter); ?></a></li>
                             <?php endif; ?>
                             <?php if ($dribbbleLink != "") : ?>
                                 <li><a class="dribbble" href="<?php echo ($dribbbleLink); ?>" title="See my latest work at Dribbble" target="_blank"><?php echo ($dribbble); ?></a></li>
@@ -130,7 +130,7 @@ include_once JPATH_THEMES . '/' . $this->template . '/logic.php';
                                 <li><a class="googleplus" href="<?php echo ($googleplusLink); ?>" title="Find me on G+" target="_blank"><?php echo ($googleplus); ?></a></li>
                             <?php endif; ?>
                             <?php if ($githubLink != "") : ?>
-                                <li><a class="github" href="<?php echo ($githubLink); ?>" title="All the codez" target="_blank"><?php echo ($github); ?></a></li>
+                                <li><a class="github" href="<?php echo ($githubLink); ?>" title="See more of our code on Github" target="_blank"><?php echo ($github); ?></a></li>
                             <?php endif; ?>
                         </ul>
                     <?php endif; ?>
