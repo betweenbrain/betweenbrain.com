@@ -57,6 +57,8 @@
 .social {
 	@extend .grid-item;
 	@extend .nav;
+	font-size: 2em;
+	vertical-align: middle;
 
 	@include media-query(lap) {
 		@extend .lap-two-thirds;
@@ -68,6 +70,7 @@
 .copyright {
 	@extend .grid-item;
 	font-weight: 400;
+	vertical-align: middle;
 
 	@include media-query(lap) {
 		@extend .lap-one-third;

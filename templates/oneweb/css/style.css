@@ -2027,7 +2027,7 @@ of adding icon classes in our markup. It's more awesome. */
     text-decoration: none; }
 
   .brain {
-    width: px;
+    width: 679px;
     height: 270px;
     margin: 75px auto 0 auto;
     background: url(../images/home.png) 50% 0 no-repeat;
@@ -2161,14 +2161,18 @@ of adding icon classes in our markup. It's more awesome. */
   color: #fff; }
 
 /* social icons */
-@media only screen and (min-width: 45em) {
-  .social {
-    margin-bottom: 0;
-    text-align: left; } }
+.social {
+  font-size: 2em;
+  vertical-align: middle; }
+  @media only screen and (min-width: 45em) {
+    .social {
+      margin-bottom: 0;
+      text-align: left; } }
 
 /* social icons */
 .copyright {
-  font-weight: 400; }
+  font-weight: 400;
+  vertical-align: middle; }
   @media only screen and (min-width: 45em) {
     .copyright {
       text-align: right; } }
