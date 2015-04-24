@@ -2226,3 +2226,25 @@ of adding icon classes in our markup. It's more awesome. */
     @media only screen and (min-width: 45em) {
       .below-row .module {
         padding-left: 1.618em; } }
+
+header h1 {
+  color: #0060a1; }
+
+h3,
+h4,
+h5 {
+  font-weight: 500;
+  margin-bottom: .5em; }
+
+h3 {
+  border-bottom: 1px solid #0060a1;
+  padding-bottom: .5em; }
+
+h4 {
+  color: #f26922; }
+
+h5 {
+  color: #0060a1; }
+
+ul {
+  list-style-position: inside; }
