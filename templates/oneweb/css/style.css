@@ -1021,8 +1021,6 @@ td {
  */
 .article p {
   font-variant-numeric: oldstyle-nums; }
-  .article p + p {
-    text-indent: 1em; }
 
 /* Typically used in the first paragraph of an article, for added awesome. */
 .intro {
@@ -2027,7 +2025,7 @@ of adding icon classes in our markup. It's more awesome. */
     text-decoration: none; }
 
   .brain {
-    width: 700px;
+    width: 679px;
     height: 270px;
     margin: 75px auto 0 auto;
     background: url(../images/home.png) 50% 0 no-repeat;
@@ -2161,18 +2159,14 @@ of adding icon classes in our markup. It's more awesome. */
   color: #fff; }
 
 /* social icons */
-.social {
-  font-size: 2em;
-  vertical-align: middle; }
-  @media only screen and (min-width: 45em) {
-    .social {
-      margin-bottom: 0;
-      text-align: left; } }
+@media only screen and (min-width: 45em) {
+  .social {
+    margin-bottom: 0;
+    text-align: left; } }
 
 /* social icons */
 .copyright {
-  font-weight: 400;
-  vertical-align: middle; }
+  font-weight: 400; }
   @media only screen and (min-width: 45em) {
     .copyright {
       text-align: right; } }

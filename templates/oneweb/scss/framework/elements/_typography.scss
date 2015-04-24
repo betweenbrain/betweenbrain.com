@@ -21,10 +21,6 @@
 
 .article p {
     font-variant-numeric: oldstyle-nums; // This doesn't work yet, but one day soon I hope it will!
-
-    + p {
-        text-indent: 1em;
-    }
 }
 
 /* Typically used in the first paragraph of an article, for added awesome. */
